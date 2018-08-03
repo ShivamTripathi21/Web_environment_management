@@ -1,0 +1,68 @@
+body{
+   background-color:#7b6eda;
+}
+h3{
+font-family: Open Sans,sans-serif;
+font-weight: 500;
+font-size: 18px;
+color: white;
+margin-top: 10px;
+margin-bottom: 12px;
+}
+.signup_input_field{
+    width: 400px;
+    height: 35px;
+    background-color: transparent;
+    font-size: 14px;
+    border: none;
+    color: white;
+    border-bottom: solid;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    outline: none;
+}
+.signup_input_field::placeholder{
+    color: #ddd;
+}
+a{
+    color: white;
+    font-family: Open Sans,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.signup_submit_button{
+    width: 400px;
+    height: 40px;
+    border: none;
+    float: right;
+    border-radius: 3px;
+    color: white;
+    font-weight:bold;
+    background: linear-gradient(to right,#6ec1da,#00adff);
+}
+
+.signup_submit_button:hover{
+    background-color: #ddd;
+    cursor: pointer;
+    background: linear-gradient(to right,#00adff,#6ec1da);
+}
+
+.signup_head_span{
+    float: left;
+    color: white;
+    font-family:Open Sans,sans-serif;
+    font-size:20px;
+    font-weight:100;
+}
+.signup_head_detail{
+    float: left;
+    color: #ddd;
+    font-family:Open Sans,sans-serif;
+    font-size:15px;
+    font-weight:100;
+}

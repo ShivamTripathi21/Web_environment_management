@@ -1,0 +1,66 @@
+body{
+   background-color:#7b6eda;
+}
+h2{
+font-family: Open Sans,sans-serif;
+font-weight: 700;
+color: white;
+margin-top: 10px;
+margin-bottom: 12px;
+}
+.login_input_field{
+    width: 400px;
+    height: 35px;
+    background-color: transparent;
+    font-size: 14px;
+    border: none;
+    color: white;
+    border-bottom: solid;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    outline: none;
+}
+.login_input_field::placeholder{
+    color: #ddd;
+}
+a{
+    color: white;
+    font-family: Open Sans,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.submit_button{
+     width: 100px;
+    height: 40px;
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+    border: none;
+    float: right;
+    border-radius: 3px;
+    font-weight:bold;
+}
+.submit_button:hover{
+    cursor: pointer;
+}
+
+.login_submit_button{
+    width: 400px;
+    height: 40px;
+    background: linear-gradient(to right,#6ec1da,#00adff);
+    border: none;
+    float: right;
+    border-radius: 3px;
+    color: white;
+    font-weight:bold;
+}
+
+.login_submit_button:hover{
+    background-color: #ddd;
+    cursor: pointer;
+    background: linear-gradient(to right,#00adff,#6ec1da);
+}
